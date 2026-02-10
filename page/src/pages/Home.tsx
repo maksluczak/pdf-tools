@@ -7,7 +7,7 @@ const cards = [
         description: "Turn any text into a readable PDF in seconds.",
     },
     {
-        link: "",
+        link: "/compress-pdf",
         title: "Compress PDF",
         description: "Reduce the size of PDF files without losing quality.",
     }

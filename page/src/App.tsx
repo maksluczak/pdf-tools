@@ -3,6 +3,7 @@ import Nav from "./components/navigation/Nav";
 import Home from "./pages/Home.tsx";
 import TextToPDF from "./pages/TextToPDF.tsx";
 import Footer from "./components/footer/Footer.tsx";
+import CompressPDF from "./pages/CompressPDF.tsx";
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/text-to-pdf" element={<TextToPDF />} />
+                        <Route path="/compress-pdf" element={<CompressPDF />} />
                     </Routes>
                 </Nav>
                 <Footer />
