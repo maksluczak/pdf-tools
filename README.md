@@ -20,7 +20,6 @@ PDF Tools is a full-stack utility designed to solve two common document problems
 ### Frontend (The Editor)
 * **React + Vite** – Fast, modern development environment.
 * **Tailwind CSS** – Minimalist "Slate & Amber" UI design.
-* **Lucide React** – Clean and consistent iconography.
 * **jsPDF** – Client-side PDF generation for instant results.
 
 ### Backend (The Compressor)
