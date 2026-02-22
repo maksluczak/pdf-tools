@@ -11,24 +11,24 @@
 PDF Tools is a full-stack utility designed to solve two common document problems: 
 
 1.  **Dynamic PDF Generation:** Creating documents with real-time preview, custom font support, and adjustable layouts.
-2.  **High-Performance Compression:** Offloading file processing to a dedicated Java backend to ensure the UI remains snappy even when handling large files.
+2.  **High-Performance Compression:** Offloading file processing to a dedicated Java backend.
 
 ---
 
 ## Tech Stack
 
-### Frontend (The Editor)
+### Frontend
 * **React + Vite** – Fast, modern development environment.
-* **Tailwind CSS** – Minimalist "Slate & Amber" UI design.
+* **Tailwind CSS** – Minimalist UI design.
 * **jsPDF** – Client-side PDF generation for instant results.
 
-### Backend (The Compressor)
-* **Java & Spring Boot** – Robust microservice for file processing.
+### Backend
+* **Java & Spring Boot** – Microservice for file processing.
 * **Maven** – Dependency and build management.
 * **Stateless Processing** – Uses Java I/O Streams to handle ZIP compression in RAM, ensuring no user data is ever stored on the server's disk (privacy by design).
 
 ### Infrastructure & DevOps
-* **Docker** – Multi-stage builds for a lightweight, production-ready container (~150MB).
+* **Docker** – Multi-stage builds for a lightweight, production-ready container.
 * **Vercel** – Hosting the frontend application.
 * **Render** – Hosting the Spring Boot microservice.
 
